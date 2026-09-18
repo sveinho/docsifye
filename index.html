@@ -4,7 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project Documentation</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+  />
 </head>
 <body>
   <div id="app">Loading...</div>
@@ -12,15 +16,24 @@
   <script>
     window.$docsify = {
       name: 'Project Documentation',
-      repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
-      search: 'auto',
-      homepage: 'README.md'
+
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search documentation',
+        noData: 'No results found',
+        depth: 6,
+        hideOtherSidebarContent: false
+      }
     };
   </script>
 
+  <!-- Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Docsify search plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 </html>
