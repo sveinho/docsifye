@@ -1,18 +1,13 @@
-# Project Documentation
+# Guide
 
-Welcome to the project documentation.
+Add your project guide here.
 
-## Overview
-
-Describe your project here.
-
-## Getting Started
+## Installation
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
-cd REPOSITORY
+npm install
 ```
 
-## Documentation
+## Usage
 
-- [Guide](guide.md)
+Explain how to use the project.
