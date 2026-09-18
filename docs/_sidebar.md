@@ -1,4 +1,4 @@
-Documentation
+- **Documentation**
 
-Home
-Guide
+  - [Home](README.md)
+  - [Guide](guide.md)
