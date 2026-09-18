@@ -1,18 +1,19 @@
 # Project Documentation
 
-Welcome to the project documentation.
+Documentation site built with [Docsify](https://docsify.js.org/).
 
-## Overview
+## Local Development
 
-Describe your project here.
-
-## Getting Started
+Install Docsify CLI:
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
-cd REPOSITORY
+npm install -g docsify-cli
 ```
 
-## Documentation
+Start the documentation server:
 
-- [Guide](guide.md)
+```bash
+docsify serve docs
+```
+
+Open [http://localhost:3000](http://localhost:3000).
